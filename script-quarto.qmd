@@ -1,0 +1,27 @@
+---
+title: "Projeto_orrganizado"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Este documento foi feito para servir de modelo para organizar projeto no R.
+
+Seguira o padrão proposto por [DellaData](https://delladata.fr/7-etapes-pour-organiser-son-travail-sous-r/). Vou organizar o diretório raiz (que é o nome do projeto) e incluir subpastas:
+
+-   Dados
+-   imagens
+-   graficos
+
+## Pacote
+
+```{r}
+library(readr)
+```
+
+A Importação de dados
+
+```{r}
+dados = read_csv2("dados/tilapia.csv", col_types = "fd") 
+```

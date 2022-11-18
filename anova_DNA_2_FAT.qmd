@@ -1,0 +1,7 @@
+---
+title: "ANOVA a Dois Fatores"
+format: html
+editor: visual
+---
+
+## 
